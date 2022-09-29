@@ -1,0 +1,26 @@
+body{
+    font-family: Courier;
+}
+.Tijgerpagina{
+    color: green;
+}
+.Fotos{
+    color: red;
+}
+.Beschrijving{
+    color: blue;
+}
+.Links{
+    color: blue;
+}
+.HelloWorld{
+    color: green;
+}
+.TijgerFoto{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.Tiger{
+    color: green;
+    font-size: 50px;
+}

@@ -1,0 +1,60 @@
+.textA{
+    font-family: Courier;
+    text-align: center;
+    line-height: 18px;
+    display: inline-flex;
+}
+.textB{
+    font-family: Courier;
+    text-align: center;
+    line-height: 18px;
+    display: inline-flex;
+}
+.Home{
+    background-color: green;
+    border: 5px solid white;
+    width: 250px;
+    height: 50px;
+}
+.Trainingen{
+    background-color: yellow;
+    border: 5px solid white;
+    width: 250px;
+    height: 50px;
+}
+.Consultancy{
+    background-color: red;
+    border: 5px solid white;
+    width: 250px;
+    height: 50px;
+}
+.Producten{
+    background-color: blue;
+    border: 5px solid white;
+    width: 250px;
+    height: 50px;
+}
+.Timeline{
+    background-color: green;
+    border: 5px solid white;
+    width: 250px;
+    height: 50px;
+}
+.Herders{
+    background-color: yellow;
+    border: 5px solid white;
+    width: 250px;
+    height: 50px;
+}
+.overOns{
+    background-color: red;
+    border: 5px solid white;
+    width: 250px;
+    height: 50px;
+}
+.Contact{
+    background-color: blue;
+    border: 5px solid white;
+    width: 250px;
+    height: 50px;
+}

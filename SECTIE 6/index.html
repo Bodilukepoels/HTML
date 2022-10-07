@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Invulformulier</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Style.css'>
+</head>
+<body>
+    <img src="Tijgerfoto.png" class="tijgers">
+    <h1 class="Contactformulier">Contactformulier</h1>
+    
+    
+    
+    <div class="container">
+        <form>
+            <label for="firstname">Naam</label>
+            <input type="text" id="fname" name="firstname" placeholder="Naam..">
+            
+            <label for="email">Email</label>
+            <input type="text" id="mail" name="email" placeholder="Email..">
+
+            <label for="wachtwoord">Wachtwoord</label>
+            <input type="text" id="wachtw" name="wachtwoord" placeholder="Wachtwoord..">
+
+            <label for="geslacht">Geslacht</label>
+            <select id="geslacht" name="geslacht">
+                <option value="choose">--Kies--</option>
+                <option value="man">Man</option>
+                <option value="woman">Vrouw</option>
+                <option value="other">Iets anders</option>
+            </select>
+
+            <label for="media">Media</label>
+            <h1> </h1>
+                <input type="checkbox" name="Keuze1" value="Nieuwsbrief">
+                <label for="Nieuwsbrief"> Nieuwsbrief</label><br>
+                <input type="checkbox" name="Keuze2" value="Mailing">
+                <label for="Mailing"> Mailing</label><br>
+                <input type="checkbox" name="Keuze3" value="Post">
+                <label for="Post"> Post</label><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+    background-color: tan;
+  }
+  @media screen and (max-width: 2350px) {
+    .tijgers {
+   width: 2285px; 
+    height: 500px; 
+    }
+  }
+  @media screen and (max-width: 1250px) {
+    .tijgers {
+        width: 1225px; 
+        height: 300px; 
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .tijgers {
+        width: 735px; 
+        height: 300px; 
+    }
+  }
+   .Contactformulier{
+       font-family: 'Courier New', Courier, monospace;
+       resize: vertical;
+       text-align: center;
+   }
+   input[type=text], select, textarea {
+       width: 100%;
+       padding: 12px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       box-sizing: border-box;
+       margin-top: 6px;
+       margin-bottom: 16px;
+       resize: vertical;
+     }
+     
+   
+     input[type=submit] {
+       background-color:wheat;
+       color: black;
+       padding: 12px 20px;
+       border: none;
+       border-radius: 4px;
+       cursor: pointer;
+     }
+     
+     
+     input[type=submit]:hover {
+       background-color: wheat;
+     }
+     
+    
+     .container {
+       border-radius: 5px;
+       background-color: tan;
+       padding: 20px;
+     
+     }

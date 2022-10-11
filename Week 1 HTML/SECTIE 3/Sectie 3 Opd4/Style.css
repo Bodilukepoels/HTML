@@ -1,0 +1,74 @@
+.font{
+    font-family: Courier;
+    padding: 50px;
+}
+ .div1{
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+    border: 10px solid black;
+}
+h1{
+    color: green;
+    line-height: 0px;
+}
+h2{
+    color: red;
+    line-height: 20px;
+}
+.Tijgerfoto{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.Prachtigedieren{
+    line-height:5px;
+    color: green;
+    text-align: left;
+    letter-spacing: 2px;
+}
+.biggerspace{
+    line-height:5px;
+    color: green;
+    text-align: left;
+    letter-spacing: 1.5px;
+}
+.links{
+    color: green;
+    line-height: 5px;
+}
+hr{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: 2px solid black;
+}
+.Bottom{
+    margin-top: 40px;
+    position: flex;
+}
+.CircularLion{
+    width: 300px;
+    height: 200px;
+    margin-left: 900px;
+    margin-top: -50px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.Herder{
+    margin-top: -20px;
+    margin-left: 1975px;
+}
+.TijgerpaginaRechts{
+    margin-left: 1850px;
+    margin-top: -1250px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+}
+.LastText{
+    color: green;   
+}
+.absoluut{
+    margin-left: 500px;
+    margin-top: -200px;
+}

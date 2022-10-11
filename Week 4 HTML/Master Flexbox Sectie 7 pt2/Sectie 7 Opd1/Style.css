@@ -1,0 +1,12 @@
+body{
+    border: 2px solid black;
+    width: 600px;
+    height: 300px;
+}
+.flex-container{
+    display: flex;
+}
+.flex__child{
+    border: 2px solid green;
+    height: 300px;
+}

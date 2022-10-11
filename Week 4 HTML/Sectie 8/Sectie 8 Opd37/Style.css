@@ -1,0 +1,45 @@
+html{
+    background: rgb(218, 112, 112);
+    font-size: 40px;
+    line-height: 400px;
+}
+.flex-container{
+    border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+.flex_child{
+    text-align: center;
+    width: 40px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-right: 40px;
+    margin-top: 40px
+    
+}
+.flex_child:nth-child(1){
+    background-color: rgb(255, 187, 187);
+}
+.flex_child:nth-child(2){
+    background-color: red;
+}
+.flex_child:nth-child(3){
+    background-color: blue;
+}
+.flex_child:nth-child(4){
+    background-color: purple;
+}
+.flex_child:nth-child(5){
+    background-color: green;
+}
+.flex_child:nth-child(6){
+    background-color: cyan;
+}
+.flex_child:nth-child(7){
+    background-color: yellow;
+}
+.flex_child:nth-child(8){
+    background-color: rgb(255, 187, 187);
+}

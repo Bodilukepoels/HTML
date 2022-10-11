@@ -1,0 +1,34 @@
+html{
+    background: rgb(218, 112, 112);
+}
+body{
+    font-family: courier;
+}
+.flex-container{
+    color: black
+}
+.flex_child{
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 80px;
+}
+.flex_child:nth-child(1){
+    background-color: yellow;
+}
+.flex_child:nth-child(2){
+    background-color:rgb(255, 187, 187)
+}
+.flex_child:nth-child(3){
+    background-color: red;
+}
+.flex_child:nth-child(4){
+    background-color: blue;  
+}
+.flex_child:nth-child(5){
+    background-color: purple;
+}
+.flex_child:nth-child(6){
+    background-color: green;
+}

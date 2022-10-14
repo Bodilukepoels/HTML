@@ -1,0 +1,30 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: courier;
+    font-weight: bold;
+}
+.flex-child{
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    flex-grow: 1;
+}
+.flex-child:nth-child(1){
+    background-color: red;
+}
+.flex-child:nth-child(2){
+    background-color: blue;
+}
+.flex-child:nth-child(3){
+    background-color: purple;
+}
+.flex-child:nth-child(4){
+    background-color: yellow;
+}
+.flex-child:nth-child(5){
+    background-color: green;
+}
+.flex-child:nth-child(6){
+    background-color: pink;
+}

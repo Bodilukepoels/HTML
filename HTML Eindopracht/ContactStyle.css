@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: gray;
+    font-family: courier
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(35, 35, 35);
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 40px 40px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.topnav li a.active {
+    background-color: #04AA6D;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+.Positioning{
+  display: flex;
+}
+.container{
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  font-size: 30px;
+  background-color: #04AA6D;
+  color: white;
+  text-align: center;
+}
+.ContactUs{
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  font-size: 30px;
+  background-color: #04AA6D;
+  color: black;
+  text-align: center;
+}
+.contactformulier{
+  text-align: center;
+}
+#name{
+  width: 300px;
+  height: 50px;
+  text-align: center;
+}
+#mail{
+  width: 300px;
+  height: 50px;
+  text-align: center;
+}
+#wachtw{
+  width: 300px;
+  height: 50px;
+  text-align: center;
+}
+#help{
+  width: 300px;
+  height: 75px;
+  text-align: center;
+}
+#submit{
+  padding: 10px;
+}
+
+@media screen and (max-width: 1126px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}

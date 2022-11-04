@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  background-color: rgb(56, 56, 56);
+  font-family: courier;
+  overflow: hidden;
+  background-image: url("https://d1fs8ljxwyzba6.cloudfront.net/assets/article/2016/10/12/download_feature.jpg");
+  background-size: cover;
+}
+
+ul.topnav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  border-bottom: 2px solid black;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(172, 151, 123);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  width: 160px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.Title {
+  position: relative;
+  top: 250px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: -5px -5px black, 0px 1px black, 1px 0 black, 0 -1px black;
+  letter-spacing: 10px;
+  font-size: 80px;
+  font-family: courier;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 15px;
+  line-height: 15px;
+  border: 6px solid rgb(35, 35, 35);
+  background-color: rgb(35, 35, 35);
+  height: 15px;
+  text-align: center;
+  color: white;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: rgb(137, 120, 97);
+}
+
+ul.topnav li a.active {
+  background-color: rgba(120, 75, 68, 0.55);
+}
